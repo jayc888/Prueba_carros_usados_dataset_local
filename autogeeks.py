@@ -344,7 +344,7 @@ with tab2:
             "imagen": "C:\\Users\\Juan\\Desktop\\JCGS\\Prueba_carros_usados_dataset_local\\Photos\\fotoerik1.jpg",  # Reemplaza con la ruta correcta
             "linkedin": "linkedin.com/in/erik-castillo1991",
             "telefono": "+525591392149", 
-            "correo": "juancgtz95@gmail.com"
+            "correo": "e.daniel.calymayor.c@gmail.com"
         }
     ]
 
@@ -416,7 +416,7 @@ with tab3:
         """)
     
     with st.expander("📊 ¿Qué precisión tiene el modelo?"):
-        st.markdown("""El modelo actual tiene un **R² de aproximadamente 0.85** y un **RMSE de 3,200** *en el conjunto de test.* Esto significa que nuestras predicciones suelen estar dentro de un rango de **±$3,200** del precio real. Además, el **Error Cuadrático Medio (MSE)** es de **5,076.70**, lo que indica que en promedio, las predicciones del modelo se desvían del precio real en aproximadamente **5,076.70** al cuadrado.
+        st.markdown("""El modelo actual tiene un **(raiz del error cuadrático medio (RMSE))** de **5,076**, lo que indica que en promedio, las predicciones del modelo se desvían del precio real en aproximadamente **5,076.70**.
     """)
     with st.expander("🔧 ¿Qué variables considera el modelo?"):
         st.write("""
@@ -444,7 +444,7 @@ with tab3:
     
     with st.expander("📱 ¿Puedo usar esta aplicación en móvil?"):
         st.write("""
-        ¡Sí! Nuestra aplicación es **completamente responsive** y funciona perfectamente en dispositivos 
+        Sí! Nuestra aplicación es **completamente responsive** y funciona perfectamente en dispositivos 
         móviles, tablets y computadoras de escritorio.
         """)
 
@@ -484,6 +484,7 @@ with tab4:
         **🔄 Mejoras del Modelo:**
         - Integración de datos en tiempo real 
         - Detección de valores atípicos
+        - Ampliación de dataset           
         """)
     
     with roadmap_col2:
@@ -523,3 +524,4 @@ with tab4:
     
     with metric_col3:
         st.metric("Cobertura", "+50% mercados", "Expansión")
+
